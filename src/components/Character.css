@@ -1,0 +1,49 @@
+.alive{
+  background: greenyellow;
+  width: 1rem;
+  height: 1rem;
+  display: inline-block;
+  margin-right: 2px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.dead{
+  background: red;
+  width: 1rem;
+  height: 1rem;
+  display: inline-block;
+  margin-right: 2px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.flex-estado{
+  display: flex;
+  align-items: center;
+}
+
+.bold-text{
+  font-weight: bold;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.info p{
+  margin: 1rem;
+}
+
+.card-caracter{
+  border: 5px solid #00000021;
+  margin: 2rem;
+  padding: 1rem 0;
+  border-radius: 25px;
+  width: 300px;
+  box-shadow: 5px 5px 10px #00000021;
+}
